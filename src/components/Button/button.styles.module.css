@@ -1,0 +1,18 @@
+.container {
+  background: rgba(204, 204, 204, 0.7);
+  width: 30%;
+  height: 40px;
+
+  align-self: center;
+
+  border-radius: 50px;
+  border: 0.5px solid #fff;
+}
+
+.container:hover {
+  filter: brightness(1.1);
+}
+
+.liked {
+  background: rgb(0, 187, 131);
+}
