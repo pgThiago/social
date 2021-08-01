@@ -16,7 +16,7 @@ export function Home() {
       </main>
       <aside className={styles.box3}>
         <Compromises
-          title="Aniversáriantes"
+          title="Aniversariantes"
           info="Nenhum dos seus amigos comemora aniversário hoje"
         />
         <Compromises

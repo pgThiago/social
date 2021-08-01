@@ -13,7 +13,7 @@ export function Compromises({ title, date, info }: CompromisesProps) {
   return (
     <div className={styles.container}>
       <span>
-        <img src={date ? timeImg : birthdayImg} alt="Aniversáriantes" /> {title}
+        <img src={date ? timeImg : birthdayImg} alt="Título" /> {title}
       </span>
       {date ? <span>{date}</span> : <span>{date}</span>}
       <span>{info}</span>
